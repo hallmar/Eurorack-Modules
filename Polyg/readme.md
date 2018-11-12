@@ -1,4 +1,4 @@
-*Polyg 8 Voice polyphonic midi synth*
+# Polyg 8-Voice Midi synth
 
 8 Voice polyphonic synthesizer with selectable Karplus strong(8 voice plucky string synth) or a 8 voice FM synth with square,sine,triangle and sawtooth. It has a basic FM(techincally Phase Modulation, like the DX7) with one Operator/Modulator. 
 There's an index knob to set the ratio, decay for the operator and the amount of FM applied.
@@ -6,3 +6,27 @@ There's an index knob to set the ratio, decay for the operator and the amount of
 Current hardware uses a high quality 16bit/96kHz DAC(CD4334).
 
 It has MIDI IN and MIDI OUT./THRU
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Versioning
+
+## Authors
+
+* **Hallmar Gauti Halldórsson** 
+
+## License
+
+
+
+## Acknowledgments
+
+
