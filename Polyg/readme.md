@@ -26,7 +26,7 @@ Hardware: cc-by-sa-3.0
 
 Software: MIT license
 
-But if you want to sell or do something wit the software or hardware then it'd be nice to include my name somewhere :)
+But if you want to sell or do something with the software or hardware then it'd be nice to include my name and link to my Github somewhere :)
 
 ## Acknowledgments
 Alot of the inspiration for this project came from the [String Theory](https://makesynthsnotwar.com/modules/stringtheory/) eurorack module by Make Synths Not War.
