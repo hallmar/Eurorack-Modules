@@ -26,6 +26,8 @@ Hardware: cc-by-sa-3.0
 
 Software: MIT license
 
+But if you want to sell or do something wit the software or hardware then it'd be nice to include my name somewhere :)
+
 ## Acknowledgments
 Alot of the inspiration for this project came from the [String Theory](https://makesynthsnotwar.com/modules/stringtheory/) eurorack module by Make Synths Not War.
 The original String Theory was programmed by [Jan Ostman](https://janostman.wordpress.com).
