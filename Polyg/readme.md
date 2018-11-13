@@ -7,9 +7,8 @@ Current hardware uses a high quality 16bit/96kHz DAC(CD4334).
 
 It has MIDI IN and MIDI OUT./THRU
 
-## Getting Started
+## Where/how to order
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Designed With
 
