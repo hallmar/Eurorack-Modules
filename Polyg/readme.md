@@ -8,12 +8,14 @@ Current hardware uses a high quality 16bit/44.1kHz DAC(CD4334).
 It has MIDI IN and MIDI OUT./THRU
 
 ## Where/how to order
-
+just hit me up with an e-mail at: halligauti@hotmail.com
+I'll let you know if i have any PCB's in stock or not.
 
 ## Designed With
 
 * Eagle CAD
 * Arduino IDE
+* Audio System Design Tool for Teensy Audio Library
 
 ## Versioning
 
