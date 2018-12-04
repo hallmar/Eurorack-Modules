@@ -7,7 +7,7 @@ There's an index knob to set the ratio, decay for the operator and the amount of
 Current hardware uses a high quality 16bit/44.1kHz DAC(CD4334).
 
 It has MIDI IN and MIDI OUT/THRU. It uses the Arturia Standard for DIN to stereo jack, so type B.
-<p align="center"><img src="/Polyg/images/TRS-graphic.jpg"  ></p>
+<p align="center"><img src="/Polyg/images/TRS-graphic.jpg" width="360" height="360" ></p>
 
 
 ## Where/how to order
