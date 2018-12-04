@@ -1,6 +1,6 @@
 # Polyg 8-Voice Midi synth
 
-<div style="text-align:center"><img src="/Polyg/images/polyg.jpg"  width="120" height="400"></div>
+<p align="center"><img src="/Polyg/images/polyg.jpg"  width="120" height="400"></p>
 8 Voice polyphonic synthesizer with selectable Karplus strong(8 voice plucky string synth) or a 8 voice FM synth with square,sine,triangle and sawtooth. It has a basic FM(techincally Phase Modulation, like the DX7) with one Operator/Modulator. 
 There's an index knob to set the ratio, decay for the operator and the amount of FM applied.
 
