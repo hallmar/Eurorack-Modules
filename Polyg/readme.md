@@ -1,12 +1,16 @@
 # Polyg 8-Voice Midi synth
 
 <p align="center"><img src="/Polyg/images/polyg.jpg"  width="120" height="360"></p>
+[Youtube demo](https://www.youtube.com/watch?v=QhJZFhLLbBc&feature=youtu.be)
+[Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7f954e2c7a)
+
+
 8 Voice polyphonic synthesizer with selectable Karplus strong(8 voice plucky string synth) or a 8 voice FM synth with square,sine,triangle and sawtooth. It has a basic FM(techincally Phase Modulation, like the DX7) with one Modulator. 
 There's an index knob to set the ratio, decay for the operator and the amount of FM applied.
 
 Current hardware uses a high quality 16bit/44.1kHz DAC(CD4334).
 
-[Youtube demo](https://www.youtube.com/watch?v=QhJZFhLLbBc&feature=youtu.be)
+
 
 It has MIDI IN and MIDI OUT/THRU. It uses the Arturia Standard for DIN to stereo jack, so type B midi.
 You can find adapters in almost every synthstore now. 
