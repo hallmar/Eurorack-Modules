@@ -1,7 +1,9 @@
 # Polyg 8-Voice Midi synth
 
 <p align="center"><img src="/Polyg/images/polyg.jpg"  width="120" height="360"></p>
+
 [Youtube demo](https://www.youtube.com/watch?v=QhJZFhLLbBc&feature=youtu.be)
+
 [Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7f954e2c7a)
 
 
