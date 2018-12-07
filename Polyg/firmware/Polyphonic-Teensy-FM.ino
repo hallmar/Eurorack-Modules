@@ -9,67 +9,63 @@
 #include <EEPROM.h>
 #include <Bounce2.h>
 MIDI_CREATE_INSTANCE(HardwareSerial, Serial1, MIDI);
-#include <Audio.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <SD.h>
-#include <SerialFlash.h>
 
 // GUItool: begin automatically generated code
-AudioSynthWaveformModulated modulator5; //xy=523.3332290649414,458.33330059051514
-AudioSynthWaveformModulated modulator6; //xy=524.9999313354492,496.66662883758545
-AudioSynthWaveformModulated modulator7; //xy=528.333251953125,534.9999399185181
-AudioSynthWaveformModulated modulator8; //xy=529.9999313354492,576.6666288375854
-AudioSynthWaveformModulated modulator2; //xy=536.666618347168,674.9999656677246
-AudioSynthWaveformModulated modulator1;   //xy=539.9999313354492,638.3332777023315
-AudioSynthWaveformModulated modulator3; //xy=539.9999237060547,709.9999723434448
-AudioSynthWaveformModulated modulator4; //xy=543.333251953125,746.6666774749756
-AudioEffectEnvelope      modenvelope2; //xy=757.3332977294922,673.999981880188
-AudioEffectEnvelope      modenvelope1;     //xy=757.9999618530273,641.3333168029785
-AudioEffectEnvelope      modenvelope7; //xy=760.3332977294922,530.999981880188
-AudioEffectEnvelope      modenvelope8; //xy=761.3332977294922,570.999981880188
-AudioEffectEnvelope      modenvelope5; //xy=762.3332977294922,457.999981880188
-AudioEffectEnvelope      modenvelope6; //xy=762.3332977294922,491.999981880188
-AudioEffectEnvelope      modenvelope3; //xy=762.3332977294922,708.999981880188
-AudioEffectEnvelope      modenvelope4; //xy=763.3332977294922,745.999981880188
-AudioSynthWaveformModulated waveform5;      //xy=955.6666259765625,463.6666488647461
-AudioSynthWaveformModulated waveform7;      //xy=956.6666259765625,530.6666488647461
-AudioSynthWaveformModulated waveform6;      //xy=958.6666259765625,496.6666488647461
-AudioSynthWaveformModulated waveform8;      //xy=959.6666259765625,567.6666488647461
-AudioSynthWaveformModulated waveform1;      //xy=965.6666259765625,639.6666488647461
-AudioSynthWaveformModulated waveform2;      //xy=969.6666259765625,676.6666488647461
-AudioSynthWaveformModulated waveform4;      //xy=969.6666259765625,747.6666488647461
-AudioSynthWaveformModulated waveform3;      //xy=970.6666259765625,710.6666488647461
-AudioSynthKarplusStrong  string1;        //xy=1011.6666259765625,805.6666488647461
-AudioSynthKarplusStrong  string4;        //xy=1011.6666259765625,919.6666488647461
-AudioSynthKarplusStrong  string5;        //xy=1012.6666259765625,974.6666488647461
-AudioSynthKarplusStrong  string8;        //xy=1012.6666259765625,1088.666648864746
-AudioSynthKarplusStrong  string3;        //xy=1013.6666259765625,881.6666488647461
-AudioSynthKarplusStrong  string7;        //xy=1014.6666259765625,1050.666648864746
-AudioSynthKarplusStrong  string2;        //xy=1016.6666259765625,843.6666488647461
-AudioSynthKarplusStrong  string6;        //xy=1017.6666259765625,1012.6666488647461
-AudioEffectEnvelope      envelope5;      //xy=1171.6666259765625,461.6666488647461
-AudioEffectEnvelope      envelope6;      //xy=1171.6666259765625,496.6666488647461
-AudioEffectEnvelope      envelope14;     //xy=1169.6666259765625,1011.6666488647461
-AudioEffectEnvelope      envelope7;      //xy=1171.6666259765625,531.6666488647461
-AudioEffectEnvelope      envelope9;      //xy=1171.6666259765625,804.6666488647461
-AudioEffectEnvelope      envelope10;     //xy=1171.6666259765625,841.6666488647461
-AudioEffectEnvelope      envelope11;     //xy=1171.6666259765625,881.6666488647461
-AudioEffectEnvelope      envelope12;     //xy=1171.6666259765625,918.6666488647461
-AudioEffectEnvelope      envelope13;     //xy=1171.6666259765625,974.6666488647461
-AudioEffectEnvelope      envelope16;     //xy=1172.6666259765625,1088.666648864746
-AudioEffectEnvelope      envelope1;      //xy=1174.6666259765625,640.6666488647461
-AudioEffectEnvelope      envelope2;      //xy=1174.6666259765625,678.6666488647461
-AudioEffectEnvelope      envelope4;      //xy=1175.6666259765625,750.6666488647461
-AudioEffectEnvelope      envelope15;     //xy=1174.6666259765625,1050.666648864746
-AudioEffectEnvelope      envelope8;      //xy=1177.6666259765625,567.6666488647461
-AudioEffectEnvelope      envelope3;      //xy=1177.6666259765625,716.6666488647461
-AudioMixer4              mixer1;         //xy=1334.6666374206543,510.6666622161865
-AudioMixer4              mixer2;         //xy=1338.666648864746,689.6666202545166
-AudioMixer4              mixer3;         //xy=1342.6666221618652,857.6666488647461
-AudioMixer4              mixer4;         //xy=1342.6666221618652,1012.9999809265137
-AudioMixer4              mixer5;         //xy=1541.6666259765625,766.6666488647461
-AudioOutputI2S           i2s1;           //xy=1698.3362426757812,773.3362102508545
+AudioSynthWaveformModulated modulator5;     //xy=361,332
+AudioSynthWaveformModulated modulator6;     //xy=362,370
+AudioSynthWaveformModulated modulator7;     //xy=366,408
+AudioSynthWaveformModulated modulator8;     //xy=367,450
+AudioSynthWaveformModulated modulator2;     //xy=374,548
+AudioSynthWaveformModulated modulator1;     //xy=377,512
+AudioSynthWaveformModulated modulator3;     //xy=377,583
+AudioSynthWaveformModulated modulator4;     //xy=381,620
+AudioEffectEnvelope      modenvelope1;   //xy=595,515
+AudioEffectEnvelope      modenvelope2;   //xy=595,547
+AudioEffectEnvelope      modenvelope7;   //xy=598,404
+AudioEffectEnvelope      modenvelope8;   //xy=599,444
+AudioEffectEnvelope      modenvelope5;   //xy=600,331
+AudioEffectEnvelope      modenvelope6;   //xy=600,365
+AudioEffectEnvelope      modenvelope3;   //xy=600,582
+AudioEffectEnvelope      modenvelope4;   //xy=601,619
+AudioSynthWaveformModulated waveform5;      //xy=793,337
+AudioSynthWaveformModulated waveform7;      //xy=794,404
+AudioSynthWaveformModulated waveform6;      //xy=796,370
+AudioSynthWaveformModulated waveform8;      //xy=797,441
+AudioSynthWaveformModulated waveform1;      //xy=803,513
+AudioSynthWaveformModulated waveform2;      //xy=807,550
+AudioSynthWaveformModulated waveform4;      //xy=807,621
+AudioSynthWaveformModulated waveform3;      //xy=808,584
+AudioSynthKarplusStrong  string1;        //xy=849,679
+AudioSynthKarplusStrong  string4;        //xy=849,793
+AudioSynthKarplusStrong  string5;        //xy=850,848
+AudioSynthKarplusStrong  string8;        //xy=850,962
+AudioSynthKarplusStrong  string3;        //xy=851,755
+AudioSynthKarplusStrong  string7;        //xy=852,924
+AudioSynthKarplusStrong  string2;        //xy=854,717
+AudioSynthKarplusStrong  string6;        //xy=855,886
+AudioEffectEnvelope      envelope5;      //xy=1009,335
+AudioEffectEnvelope      envelope6;      //xy=1009,370
+AudioEffectEnvelope      envelope14;     //xy=1007,885
+AudioEffectEnvelope      envelope7;      //xy=1009,405
+AudioEffectEnvelope      envelope9;      //xy=1009,678
+AudioEffectEnvelope      envelope10;     //xy=1009,715
+AudioEffectEnvelope      envelope11;     //xy=1009,755
+AudioEffectEnvelope      envelope12;     //xy=1009,792
+AudioEffectEnvelope      envelope13;     //xy=1009,848
+AudioEffectEnvelope      envelope16;     //xy=1010,962
+AudioEffectEnvelope      envelope1;      //xy=1012,514
+AudioEffectEnvelope      envelope2;      //xy=1012,552
+AudioEffectEnvelope      envelope4;      //xy=1013,624
+AudioEffectEnvelope      envelope15;     //xy=1012,924
+AudioEffectEnvelope      envelope8;      //xy=1015,441
+AudioEffectEnvelope      envelope3;      //xy=1015,590
+AudioMixer4              mixer1;         //xy=1172,384
+AudioMixer4              mixer2;         //xy=1176,563
+AudioMixer4              mixer3;         //xy=1180,731
+AudioMixer4              mixer4;         //xy=1180,886
+AudioMixer4              mixer5;         //xy=1379,640
+AudioAnalyzePeak         peak1;          //xy=1549,518
+AudioOutputI2S           i2s1;           //xy=1649,639
 AudioConnection          patchCord1(modulator5, modenvelope5);
 AudioConnection          patchCord2(modulator6, modenvelope6);
 AudioConnection          patchCord3(modulator7, modenvelope7);
@@ -78,8 +74,8 @@ AudioConnection          patchCord5(modulator2, modenvelope2);
 AudioConnection          patchCord6(modulator1, modenvelope1);
 AudioConnection          patchCord7(modulator3, modenvelope3);
 AudioConnection          patchCord8(modulator4, modenvelope4);
-AudioConnection          patchCord9(modenvelope2, 0, waveform2, 0);
-AudioConnection          patchCord10(modenvelope1, 0, waveform1, 0);
+AudioConnection          patchCord9(modenvelope1, 0, waveform1, 0);
+AudioConnection          patchCord10(modenvelope2, 0, waveform2, 0);
 AudioConnection          patchCord11(modenvelope7, 0, waveform7, 0);
 AudioConnection          patchCord12(modenvelope8, 0, waveform8, 0);
 AudioConnection          patchCord13(modenvelope5, 0, waveform5, 0);
@@ -122,7 +118,8 @@ AudioConnection          patchCord49(mixer1, 0, mixer5, 0);
 AudioConnection          patchCord50(mixer2, 0, mixer5, 1);
 AudioConnection          patchCord51(mixer3, 0, mixer5, 2);
 AudioConnection          patchCord52(mixer4, 0, mixer5, 3);
-AudioConnection          patchCord53(mixer5, 0, i2s1, 0);
+AudioConnection          patchCord53(mixer5, peak1);
+AudioConnection          patchCord54(mixer5, 0, i2s1, 0);
 // GUItool: end automatically generated code
 
 
@@ -134,10 +131,10 @@ const short sq_led = 4;
 const short saw_led = 5;
 const short tri_led = 6;
 const short string_led = 8;
-const short osc_led = 9;
+const short osc_led = 13;
 
 //----Inputs-------------
-const short waveshape = 11;
+const short waveshape = 7;
 const short envelope = 12;
 const short midi_learn = 2;
 Bounce wavesh_but = Bounce();
@@ -196,7 +193,7 @@ float modi_sum;
 void setup() 
 {
   
-  AudioMemory(100);
+  AudioMemory(80);
   pinMode(sin_led, OUTPUT);
   pinMode(sq_led, OUTPUT);
   pinMode(saw_led, OUTPUT);
@@ -288,7 +285,7 @@ void setup()
   MIDI.setHandleNoteOff(handleMIDIoff);
   MIDI.setHandleNoteOn(handleMIDIon);
   MIDI.turnThruOn(); //turn on thru functionality for the MIDI out port
-  analogReference(DEFAULT);
+  //analogReference(DEFAULT);
 }
 
 void loop() 
@@ -465,10 +462,12 @@ void loop()
  midilearn_but.update();
  if(midilearn_but.rose())
  {
-  while(midilearn_but.read() == 1)
+  while(digitalRead(midi_learn) == 1)
   {
 	  delay(10);
 	  time_held = time_held + 10;
+	  Serial.println(String("Time ") + time_held);
+
   }
   if(time_held >= 500)
   {learn_active = 1;}
@@ -478,7 +477,11 @@ void loop()
   //Serial.println(String("Max processor usage: ")+ AudioProcessorUsageMax());
  }
  //AudioProcessorUsageMaxReset();
-
+ if(peak1.available())
+ {
+	  
+	 Serial.println(String("Peak: ") + peak1.read());
+ }
 } //loop ends
 
 float halfquantize(float number)

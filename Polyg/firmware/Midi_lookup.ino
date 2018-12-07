@@ -18,7 +18,9 @@ const float midi_notes[127] = { 8.66196	,9.17702	,9.72272	,10.30086	,10.91338	,1
 
 void handleMIDIon(byte channel, byte note, byte velocity)
 {
+	Serial.println(String("Note On:  ch=") + channel + ", note=" + note + ", velocity=" + velocity);
 	if (learn_active) {
+    
     midi_channel = channel;
     EEPROM.put(0, midi_channel);
     learn_active = false;
@@ -31,6 +33,7 @@ void handleMIDIon(byte channel, byte note, byte velocity)
 }
 void handleMIDIoff(byte channel, byte note, byte velocity)
 {
+  Serial.println(String("Note off:  ch=") + channel + ", note=" + note + ", velocity=" + velocity);
   if(channel == midi_channel) 
   {
 	envelopeOFF(note);

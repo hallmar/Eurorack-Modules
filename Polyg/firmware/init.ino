@@ -1,7 +1,7 @@
 #include "settings.h"
 void initial()
 {
-  short att_knob = 0;
+  short att_knob = 0; 
 	   //Instantiate values for DSP blocks
   AudioNoInterrupts();
   waveform1.begin(0.125, voicefreq[0], current_waveform);
@@ -12,6 +12,7 @@ void initial()
   waveform6.begin(0.125, voicefreq[1], current_waveform);
   waveform7.begin(0.125, voicefreq[2], current_waveform);
   waveform8.begin(0.125, voicefreq[3], current_waveform);
+  //Set the phase modulation for the carriers
   waveform1.frequencyModulation(0);
   waveform1.phaseModulation(900);
   waveform2.frequencyModulation(0);
@@ -43,23 +44,23 @@ void initial()
 
   
   //mixers for first pair of 8 voices
-  mixer1.gain(0,0.75);
-  mixer1.gain(1,0.75);
-  mixer1.gain(2,0.75);
-  mixer1.gain(3,0.75);
-  mixer2.gain(0,0.75);
-  mixer2.gain(1,0.75);
-  mixer2.gain(2,0.75);
-  mixer2.gain(3,0.75);
+  mixer1.gain(0,0.8);
+  mixer1.gain(1,0.8);
+  mixer1.gain(2,0.8);
+  mixer1.gain(3,0.8);
+  mixer2.gain(0,0.8);
+  mixer2.gain(1,0.8);
+  mixer2.gain(2,0.8);
+  mixer2.gain(3,0.8);
   //mixers for pair of 8 strings
-  mixer3.gain(0,0.5);
-  mixer3.gain(1,0.5);
-  mixer3.gain(2,0.5);
-  mixer3.gain(3,0.5);
-  mixer4.gain(0,0.5);
-  mixer4.gain(1,0.5);
-  mixer4.gain(2,0.5);
-  mixer4.gain(3,0.5);
+  mixer3.gain(0,0.8);
+  mixer3.gain(1,0.8);
+  mixer3.gain(2,0.8);
+  mixer3.gain(3,0.8);
+  mixer4.gain(0,0.8);
+  mixer4.gain(1,0.8);
+  mixer4.gain(2,0.8);
+  mixer4.gain(3,0.8);
 
 
   //final mixer
@@ -148,22 +149,22 @@ void initial()
   envelope14.attack(att_knob);
   envelope15.attack(att_knob);
   envelope16.attack(att_knob);
-  envelope1.release(dec_knob);
-  envelope2.release(dec_knob);
-  envelope3.release(dec_knob);
-  envelope4.release(dec_knob);
-  envelope5.release(dec_knob);
-  envelope6.release(dec_knob);
-  envelope7.release(dec_knob);
-  envelope8.release(dec_knob);
-  envelope9.release(dec_knob);
-  envelope10.release(dec_knob);
-  envelope11.release(dec_knob);
-  envelope12.release(dec_knob);
-  envelope13.release(dec_knob);
-  envelope14.release(dec_knob);
-  envelope15.release(dec_knob);
-  envelope16.release(dec_knob);
+  envelope1.release(2000*dec_knob);
+  envelope2.release(2000*dec_knob);
+  envelope3.release(2000*dec_knob);
+  envelope4.release(2000*dec_knob);
+  envelope5.release(2000*dec_knob);
+  envelope6.release(2000*dec_knob);
+  envelope7.release(2000*dec_knob);
+  envelope8.release(2000*dec_knob);
+  envelope9.release(3000*dec_knob);
+  envelope10.release(3000*dec_knob);
+  envelope11.release(3000*dec_knob);
+  envelope12.release(3000*dec_knob);
+  envelope13.release(3000*dec_knob);
+  envelope14.release(3000*dec_knob);
+  envelope15.release(3000*dec_knob);
+  envelope16.release(3000*dec_knob);
   envelope1.hold(0);
   envelope2.hold(0);
   envelope3.hold(0);

@@ -2,6 +2,7 @@
 
 void envelopeON(byte note)
 {
+  Serial.println("Envelope on");
   float freq_note = midi_notes[note-1];
   if(current_instrument == INST_OSC)
   {
@@ -10,6 +11,7 @@ void envelopeON(byte note)
 		gate_out = 1;
 		digitalWrite(gate_o,HIGH);
 		gate_out_n = note;
+		Serial.println(String("Gate = ") + gate_out);
 	}
 	if(!voicetrig[0])
 	{
@@ -218,6 +220,7 @@ void envelopeON(byte note)
 
 void envelopeOFF(byte note)
 {
+  Serial.println("Envelope off");
 
   if(current_instrument == INST_OSC)
   {
@@ -225,6 +228,8 @@ void envelopeOFF(byte note)
 	{
 		gate_out = 0;
 		digitalWrite(gate_o,LOW);
+	    Serial.println(String("Gate = ") + gate_out);
+
 	}
 	if((voicetrig[0] == 1) && (note == voicenote[0]))
 	{
@@ -372,13 +377,13 @@ void changeenvelope()
       digitalWrite(string_led, HIGH);
       digitalWrite(osc_led, LOW);
 	  sel_osc = 0;
-	  sel_strings = 0.5;
+	  sel_strings = 0.8;
     break;
     case INST_STR:
       current_instrument = INST_OSC;
       digitalWrite(string_led, LOW);
       digitalWrite(osc_led, HIGH);
-	  sel_osc = 0.5;
+	  sel_osc = 0.8;
 	  sel_strings = 0;
     break; 
   }
@@ -409,7 +414,7 @@ void changewavesh()
       digitalWrite(sq_led, LOW);
       digitalWrite(saw_led, HIGH);
       digitalWrite(tri_led, LOW);
-	  amplitude = 0.20;
+	  amplitude = 0.125;
       break;
     case WAVEFORM_SAWTOOTH:
       current_waveform = WAVEFORM_TRIANGLE;
@@ -417,7 +422,7 @@ void changewavesh()
       digitalWrite(sq_led, LOW);
       digitalWrite(saw_led, LOW);
       digitalWrite(tri_led, HIGH);
-	  amplitude = 0.25;
+	  amplitude = 0.125;
       break;
     case WAVEFORM_TRIANGLE:
       current_waveform = WAVEFORM_SINE;
@@ -425,9 +430,10 @@ void changewavesh()
       digitalWrite(sq_led, LOW);
       digitalWrite(saw_led, LOW);
       digitalWrite(tri_led, LOW);
-	  amplitude = 0.25;
+	  amplitude = 0.125;
       break;
   }
+  
   AudioNoInterrupts();
   waveform1.amplitude(amplitude);
   waveform2.amplitude(amplitude);
@@ -452,6 +458,7 @@ void changewavesh()
 
 void allnotesoff()
 {
+  Serial.println("All notes off");
   for(int i = 0; i<16; i++)
   {voicetrig[i] = 0;}
   AudioNoInterrupts();
@@ -490,23 +497,25 @@ void waveformrefresh()
       digitalWrite(sq_led, LOW);
       digitalWrite(saw_led, HIGH);
       digitalWrite(tri_led, LOW);
-	  amplitude = 0.25;
+	  amplitude = 0.125;
       break;
     case WAVEFORM_TRIANGLE:
       digitalWrite(sin_led, LOW);
       digitalWrite(sq_led, LOW);
       digitalWrite(saw_led, LOW);
       digitalWrite(tri_led, HIGH);
-	  amplitude = 0.25;
+	  amplitude = 0.125;
       break;
     case WAVEFORM_SINE:
       digitalWrite(sin_led, HIGH);
       digitalWrite(sq_led, LOW);
       digitalWrite(saw_led, LOW);
       digitalWrite(tri_led, LOW);
-	  amplitude = 0.25;
+	  amplitude = 0.125;
       break;
   }
+  
+
   AudioNoInterrupts();
   waveform1.amplitude(amplitude);
   waveform2.amplitude(amplitude);
@@ -537,12 +546,12 @@ void instrumentrefresh()
       digitalWrite(string_led, HIGH);
       digitalWrite(osc_led, LOW);
 	  sel_osc = 0;
-	  sel_strings = 0.5;
+	  sel_strings = 0.9;
     break;
     case INST_OSC:
       digitalWrite(string_led, LOW);
       digitalWrite(osc_led, HIGH);
-	  sel_osc = 0.5;
+	  sel_osc = 0.9;
 	  sel_strings = 0;
     break; 
   }
