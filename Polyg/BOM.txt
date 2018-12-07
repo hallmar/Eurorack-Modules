@@ -5,4 +5,5 @@ Thonk.co.uk parts:
 2x Green stereo jack(PJ366ST)
 5x Mono thonkiconn jack(PJ398SM)
 4x 50k Lin Vertical Potentiometer(green body)
+2x c&k tactile switch https://www.thonk.co.uk/shop/radio-music-switch/
 Some knobs(your choice)
