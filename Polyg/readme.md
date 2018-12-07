@@ -10,6 +10,7 @@ It has MIDI IN and MIDI OUT/THRU. It uses the Arturia Standard for DIN to stereo
 You can find adapters in almost every synthstore now. 
 <p align="center"><img src="/Polyg/images/TRS-graphic.jpg" width="360" height="360" ></p>
 
+[Youtube demo](https://www.youtube.com/watch?v=QhJZFhLLbBc&feature=youtu.be)
 
 ## Where/how to order
 just hit me up with an e-mail at: halligauti@hotmail.com
