@@ -30,9 +30,9 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -146,6 +146,12 @@
 <wire x1="0" y1="0" x2="40.14" y2="0" width="0" layer="20"/>
 <wire x1="40.14" y1="0" x2="40.14" y2="109.398" width="0" layer="20"/>
 <wire x1="40.14" y1="109.398" x2="0" y2="109.398" width="0" layer="20"/>
+<text x="34.163" y="60.325" size="1.778" layer="25">+</text>
+<text x="29.337" y="60.579" size="1.778" layer="25">+</text>
+<text x="10.16" y="54.483" size="1.778" layer="25">+</text>
+<text x="5.334" y="54.356" size="1.778" layer="25">+</text>
+<text x="5.334" y="66.421" size="1.778" layer="25">+</text>
+<text x="10.16" y="66.421" size="1.778" layer="25">+</text>
 </plain>
 <libraries>
 <library name="MusicThingModular">
