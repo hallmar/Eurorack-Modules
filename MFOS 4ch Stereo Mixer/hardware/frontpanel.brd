@@ -143,10 +143,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="30.15" y1="128.26" x2="0" y2="128.26" width="0" layer="20"/>
+<wire x1="30.404" y1="128.26" x2="0" y2="128.26" width="0" layer="20"/>
 <wire x1="0" y1="128.26" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="30.15" y1="0" x2="30.15" y2="128.26" width="0" layer="20"/>
-<wire x1="0" y1="0" x2="30.15" y2="0" width="0" layer="20"/>
+<wire x1="30.404" y1="0" x2="30.404" y2="128.26" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="30.404" y2="0" width="0" layer="20"/>
 <text x="3.175" y="120.65" size="1.778" layer="25" font="vector">CH 1</text>
 <text x="20.955" y="120.65" size="1.778" layer="25" font="vector">CH 2</text>
 <text x="3.175" y="104.14" size="1.778" layer="25" font="vector">CH 3</text>
