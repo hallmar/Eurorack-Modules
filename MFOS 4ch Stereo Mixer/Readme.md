@@ -2,7 +2,7 @@
 It's simple.
 It's a 4 channel stereo in and one stereo out mixer.
 Has 4 attenuators per channel, the left jack is normalled to the right(if you only plug a jack into the left then the signal at the left jack is passed to the right channel too).
-
+[original schematic](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=POWERSUPPLY2009/POWERSUPPLY2009.php&VPW=1272&VPH=795)
 
 ## Where/how to order
 Not selling any PCB's for this one. It's only for open source/documentation purposes.
@@ -24,7 +24,7 @@ Hardware: cc-by-sa-3.0
 
 ## Acknowledgments
 The design of the circuit was completely done by the great Ray Wilson of [Music From Outer Space](http://musicfromouterspace.com).
-I merely designed the frontpanel and PCB for it for Eurorack. 
+I merely designed the frontpanel and PCB for it for Eurorack. Here is the [original schematic](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=POWERSUPPLY2009/POWERSUPPLY2009.php&VPW=1272&VPH=795)
 
 
 
