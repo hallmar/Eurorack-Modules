@@ -1,7 +1,7 @@
 # Music From Outer Space 4 channel Stereo mixer 
 It's simple.
 It's a 4 channel stereo in and one stereo out mixer.
-Has 4 attenuators per channel, the left jack is normalled to the right(if you only plug a jack into the left then the signal at the left jack is passed to the right channel too).
+Has 1 attenuator per channel, the left jack is normalled to the right(if you only plug a jack into the left then the signal at the left jack is passed to the right channel too).
 [original schematic](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=POWERSUPPLY2009/POWERSUPPLY2009.php&VPW=1272&VPH=795)
 
 ## Where/how to order
