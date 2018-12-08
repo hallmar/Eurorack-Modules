@@ -25,7 +25,7 @@ Hardware: cc-by-sa-3.0
 
 ## Acknowledgments
 The design of the circuit was completely done by the great Ray Wilson of [Music From Outer Space](http://musicfromouterspace.com).
-I merely designed the frontpanel and PCB for it for Eurorack. Here is the [original schematic](http://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=POWERSUPPLY2009/POWERSUPPLY2009.php&VPW=1272&VPH=795)
+I merely designed the frontpanel and PCB for it for Eurorack. Here is the [original schematic](http://musicfromouterspace.com/analogsynth_new/HOT_TIPS/PDF/simple_stereo_summer_assembly.pdf)
 
 
 
