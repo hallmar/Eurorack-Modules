@@ -6924,35 +6924,35 @@ Source: www.kingbright.com</description>
 <part name="RATIO_CV" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="WAVE-TRIGGER" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
-<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
+<part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
+<part name="R22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
+<part name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
+<part name="D12" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
+<part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="56k"/>
-<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="33k"/>
+<part name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="56k"/>
+<part name="R23" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="33k"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="33k"/>
-<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="56k"/>
+<part name="R24" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="33k"/>
+<part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="56k"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GATE-OUT" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="1k"/>
-<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
+<part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="1k"/>
+<part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="47"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV2" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
+<part name="SV6" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SV3" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
+<part name="SV5" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
 <part name="GATE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="3mm RED"/>
 <part name="SIN" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="3mm RED"/>
 <part name="SQ" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="3mm RED"/>
@@ -6966,19 +6966,19 @@ Source: www.kingbright.com</description>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
-<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="220"/>
+<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
+<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="220"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="SV4" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
+<part name="SV7" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
+<part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:29904/2"/>
-<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
+<part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
-<part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
-<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
-<part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
+<part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
+<part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
+<part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
+<part name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7007,13 +7007,13 @@ Hallmar Gauti Halldorsson</text>
 <attribute name="NAME" x="-128.27" y="134.874" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="GND4" gate="1" x="-210.82" y="132.08"/>
-<instance part="R2" gate="G$1" x="-195.58" y="142.24" rot="R180"/>
-<instance part="R3" gate="G$1" x="-195.58" y="134.62" rot="R180"/>
-<instance part="D4" gate="G$1" x="-111.76" y="149.86" smashed="yes" rot="R90">
+<instance part="R21" gate="G$1" x="-195.58" y="142.24" rot="R180"/>
+<instance part="R22" gate="G$1" x="-195.58" y="134.62" rot="R180"/>
+<instance part="D11" gate="G$1" x="-111.76" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="-106.68" y="153.1874" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-102.87" y="149.6314" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D5" gate="G$1" x="-111.76" y="137.16" smashed="yes" rot="R90">
+<instance part="D12" gate="G$1" x="-111.76" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="-107.95" y="140.4874" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-102.87" y="134.3914" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7023,32 +7023,32 @@ Hallmar Gauti Halldorsson</text>
 <instance part="GND7" gate="1" x="-111.76" y="129.54" smashed="yes">
 <attribute name="VALUE" x="-114.3" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="-119.38" y="142.24" smashed="yes" rot="R180">
+<instance part="R28" gate="G$1" x="-119.38" y="142.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="-115.57" y="140.7414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-115.57" y="145.542" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-236.22" y="2.54"/>
-<instance part="R1" gate="G$1" x="-205.74" y="119.38"/>
-<instance part="R4" gate="G$1" x="-195.58" y="111.76" rot="R270"/>
+<instance part="R18" gate="G$1" x="-205.74" y="119.38"/>
+<instance part="R23" gate="G$1" x="-195.58" y="111.76" rot="R270"/>
 <instance part="GND1" gate="1" x="-195.58" y="104.14"/>
 <instance part="GND2" gate="1" x="-213.36" y="48.26"/>
 <instance part="GND3" gate="1" x="-180.34" y="48.26"/>
 <instance part="GND5" gate="1" x="-180.34" y="12.7"/>
 <instance part="GND8" gate="1" x="-213.36" y="12.7"/>
-<instance part="R5" gate="G$1" x="-195.58" y="83.82" rot="R270"/>
-<instance part="R6" gate="G$1" x="-205.74" y="91.44"/>
+<instance part="R24" gate="G$1" x="-195.58" y="83.82" rot="R270"/>
+<instance part="R25" gate="G$1" x="-205.74" y="91.44"/>
 <instance part="GND9" gate="1" x="-195.58" y="76.2"/>
 <instance part="GND10" gate="1" x="-213.36" y="83.82"/>
 <instance part="GND11" gate="1" x="-213.36" y="111.76"/>
 <instance part="GATE-OUT" gate="G$1" x="-27.94" y="83.82"/>
-<instance part="R7" gate="G$1" x="-48.26" y="55.88" rot="R270"/>
-<instance part="R8" gate="G$1" x="-60.96" y="43.18"/>
+<instance part="R26" gate="G$1" x="-48.26" y="55.88" rot="R270"/>
+<instance part="R27" gate="G$1" x="-60.96" y="43.18"/>
 <instance part="GND12" gate="1" x="-48.26" y="33.02"/>
 <instance part="GND13" gate="1" x="-38.1" y="78.74"/>
 <instance part="GND14" gate="1" x="-33.02" y="96.52"/>
-<instance part="SV2" gate="G$1" x="-68.58" y="157.48"/>
+<instance part="SV6" gate="G$1" x="-68.58" y="157.48"/>
 <instance part="GND15" gate="1" x="-55.88" y="147.32"/>
-<instance part="SV3" gate="G$1" x="-27.94" y="157.48"/>
+<instance part="SV5" gate="G$1" x="-27.94" y="157.48"/>
 <instance part="GATE" gate="G$1" x="-48.26" y="68.58"/>
 <instance part="SIN" gate="G$1" x="-139.7" y="53.34"/>
 <instance part="SQ" gate="G$1" x="-129.54" y="53.34"/>
@@ -7062,14 +7062,14 @@ Hallmar Gauti Halldorsson</text>
 <instance part="GND19" gate="1" x="-109.22" y="43.18"/>
 <instance part="GND20" gate="1" x="-124.46" y="12.7"/>
 <instance part="GND22" gate="1" x="-114.3" y="12.7"/>
-<instance part="D1" gate="G$1" x="-50.8" y="86.36"/>
-<instance part="R10" gate="G$1" x="-48.26" y="104.14"/>
+<instance part="D10" gate="G$1" x="-50.8" y="86.36"/>
+<instance part="R19" gate="G$1" x="-48.26" y="104.14"/>
 <instance part="S1" gate="1" x="-152.4" y="160.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="-154.94" y="166.37" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-149.225" y="163.83" size="1.778" layer="96"/>
 </instance>
-<instance part="SV4" gate="G$1" x="-27.94" y="124.46"/>
-<instance part="R11" gate="G$1" x="-142.24" y="152.4" smashed="yes" rot="R270">
+<instance part="SV7" gate="G$1" x="-27.94" y="124.46"/>
+<instance part="R20" gate="G$1" x="-142.24" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="-140.97" y="153.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-141.605" y="147.828" size="1.4224" layer="96"/>
 </instance>
@@ -7077,12 +7077,12 @@ Hallmar Gauti Halldorsson</text>
 <attribute name="VALUE" x="-144.78" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="T1" gate="G$1" x="-50.8" y="43.18"/>
-<instance part="R12" gate="G$1" x="-111.76" y="93.98" rot="R90"/>
+<instance part="R29" gate="G$1" x="-111.76" y="93.98" rot="R90"/>
 <instance part="GND21" gate="1" x="-111.76" y="86.36"/>
-<instance part="R13" gate="G$1" x="-205.74" y="53.34" rot="R270"/>
-<instance part="R14" gate="G$1" x="-205.74" y="17.78" rot="R270"/>
-<instance part="R15" gate="G$1" x="-172.72" y="17.78" rot="R270"/>
-<instance part="R16" gate="G$1" x="-172.72" y="53.34" rot="R270"/>
+<instance part="R30" gate="G$1" x="-205.74" y="53.34" rot="R270"/>
+<instance part="R31" gate="G$1" x="-205.74" y="17.78" rot="R270"/>
+<instance part="R32" gate="G$1" x="-172.72" y="17.78" rot="R270"/>
+<instance part="R33" gate="G$1" x="-172.72" y="53.34" rot="R270"/>
 <instance part="GND24" gate="1" x="-205.74" y="45.72"/>
 <instance part="GND25" gate="1" x="-172.72" y="45.72"/>
 <instance part="GND26" gate="1" x="-172.72" y="10.16"/>
@@ -7104,12 +7104,12 @@ Hallmar Gauti Halldorsson</text>
 <wire x1="-127" y1="132.08" x2="-127" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D12" gate="G$1" pin="A"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="-111.76" y1="132.08" x2="-111.76" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7129,7 +7129,7 @@ Hallmar Gauti Halldorsson</text>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7150,7 +7150,7 @@ Hallmar Gauti Halldorsson</text>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="1"/>
+<pinref part="SV6" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="-55.88" y1="149.86" x2="-60.96" y2="149.86" width="0.1524" layer="91"/>
 </segment>
@@ -7185,7 +7185,7 @@ Hallmar Gauti Halldorsson</text>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="-142.24" y1="147.32" x2="-142.24" y2="149.86" width="0.1524" layer="91"/>
 </segment>
@@ -7195,29 +7195,29 @@ Hallmar Gauti Halldorsson</text>
 <wire x1="-48.26" y1="35.56" x2="-48.26" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="MIDI-OUT" gate="G$1" pin="RIGHT"/>
 <wire x1="-200.66" y1="134.62" x2="-205.74" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-205.74" y1="134.62" x2="-205.74" y2="139.7" width="0.1524" layer="91"/>
@@ -7227,24 +7227,24 @@ Hallmar Gauti Halldorsson</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="MIDI-OUT" gate="G$1" pin="LEFT"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="-213.36" y1="142.24" x2="-200.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WAVE_TRIG_F" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
+<pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="-111.76" y1="142.24" x2="-111.76" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D12" gate="G$1" pin="C"/>
 <wire x1="-111.76" y1="139.7" x2="-111.76" y2="142.24" width="0.1524" layer="91"/>
 <junction x="-111.76" y="142.24"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="-114.3" y1="142.24" x2="-111.76" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="142.24" x2="-96.52" y2="142.24" width="0.1524" layer="91"/>
 <label x="-96.52" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="2"/>
+<pinref part="SV6" gate="G$1" pin="2"/>
 <wire x1="-60.96" y1="152.4" x2="-58.42" y2="152.4" width="0.1524" layer="91"/>
 <label x="-58.42" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7252,18 +7252,18 @@ Hallmar Gauti Halldorsson</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="WAVE-TRIGGER" gate="G$1" pin="TIP"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="-127" y1="142.24" x2="-124.46" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3.3V_F" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="-190.5" y1="142.24" x2="-182.88" y2="142.24" width="0.1524" layer="91"/>
 <label x="-182.88" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="D11" gate="G$1" pin="C"/>
 <wire x1="-111.76" y1="152.4" x2="-111.76" y2="157.48" width="0.1524" layer="91"/>
 <label x="-111.76" y="157.48" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -7303,7 +7303,7 @@ Hallmar Gauti Halldorsson</text>
 <label x="-132.08" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="8"/>
+<pinref part="SV6" gate="G$1" pin="8"/>
 <wire x1="-60.96" y1="167.64" x2="-58.42" y2="167.64" width="0.1524" layer="91"/>
 <label x="-58.42" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7325,18 +7325,18 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="154.94" x2="-17.78" y2="154.94" width="0.1524" layer="91"/>
 <label x="-17.78" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="3"/>
+<pinref part="SV5" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="RATIO_CV_F" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="4"/>
+<pinref part="SV6" gate="G$1" pin="4"/>
 <wire x1="-60.96" y1="157.48" x2="-58.42" y2="157.48" width="0.1524" layer="91"/>
 <label x="-58.42" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="-200.66" y1="119.38" x2="-195.58" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="116.84" x2="-195.58" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="119.38" x2="-180.34" y2="119.38" width="0.1524" layer="91"/>
@@ -7346,7 +7346,7 @@ Hallmar Gauti Halldorsson</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="-48.26" y1="63.5" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GATE" gate="G$1" pin="C"/>
 </segment>
@@ -7354,30 +7354,30 @@ Hallmar Gauti Halldorsson</text>
 <net name="GATE_F" class="0">
 <segment>
 <wire x1="-68.58" y1="43.18" x2="-68.58" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="43.18" x2="-66.04" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="86.36" x2="-71.12" y2="86.36" width="0.1524" layer="91"/>
 <label x="-71.12" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="-68.58" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-68.58" y="86.36"/>
 </segment>
 <segment>
 <wire x1="-20.32" y1="149.86" x2="-17.78" y2="149.86" width="0.1524" layer="91"/>
 <label x="-17.78" y="149.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="1"/>
+<pinref part="SV5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="C" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="-48.26" y1="48.26" x2="-48.26" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="B" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="-55.88" y1="43.18" x2="-53.34" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="B"/>
 </segment>
@@ -7386,10 +7386,10 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="152.4" x2="-17.78" y2="152.4" width="0.1524" layer="91"/>
 <label x="-17.78" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="2"/>
+<pinref part="SV5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-53.34" y1="104.14" x2="-66.04" y2="104.14" width="0.1524" layer="91"/>
 <label x="-66.04" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7399,38 +7399,38 @@ Hallmar Gauti Halldorsson</text>
 <pinref part="MODE" gate="G$1" pin="O"/>
 <wire x1="-114.3" y1="99.06" x2="-111.76" y2="99.06" width="0.1524" layer="91"/>
 <label x="-106.68" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="-111.76" y1="99.06" x2="-106.68" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-111.76" y="99.06"/>
 </segment>
 <segment>
 <wire x1="-20.32" y1="157.48" x2="-17.78" y2="157.48" width="0.1524" layer="91"/>
 <label x="-17.78" y="157.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="4"/>
+<pinref part="SV5" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="MIDI_TX_F" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="5"/>
+<pinref part="SV6" gate="G$1" pin="5"/>
 <wire x1="-60.96" y1="160.02" x2="-58.42" y2="160.02" width="0.1524" layer="91"/>
 <label x="-58.42" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="-190.5" y1="134.62" x2="-182.88" y2="134.62" width="0.1524" layer="91"/>
 <label x="-182.88" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FM_CV_F" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="3"/>
+<pinref part="SV6" gate="G$1" pin="3"/>
 <wire x1="-60.96" y1="154.94" x2="-58.42" y2="154.94" width="0.1524" layer="91"/>
 <label x="-58.42" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="-200.66" y1="91.44" x2="-195.58" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="-195.58" y1="91.44" x2="-195.58" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="91.44" x2="-180.34" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-195.58" y="91.44"/>
@@ -7441,13 +7441,13 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="165.1" x2="-17.78" y2="165.1" width="0.1524" layer="91"/>
 <label x="-17.78" y="165.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="7"/>
+<pinref part="SV5" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="FM_DEC" gate="G$1" pin="S"/>
 <wire x1="-208.28" y1="22.86" x2="-205.74" y2="22.86" width="0.1524" layer="91"/>
 <label x="-203.2" y="22.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="-205.74" y1="22.86" x2="-203.2" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-205.74" y="22.86"/>
 </segment>
@@ -7456,13 +7456,13 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="162.56" x2="-17.78" y2="162.56" width="0.1524" layer="91"/>
 <label x="-17.78" y="162.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="6"/>
+<pinref part="SV5" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="DECAY" gate="G$1" pin="S"/>
 <wire x1="-175.26" y1="22.86" x2="-172.72" y2="22.86" width="0.1524" layer="91"/>
 <label x="-170.18" y="22.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="-172.72" y1="22.86" x2="-170.18" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-172.72" y="22.86"/>
 </segment>
@@ -7471,13 +7471,13 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="160.02" x2="-17.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="-17.78" y="160.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="5"/>
+<pinref part="SV5" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="FM" gate="G$1" pin="S"/>
 <wire x1="-208.28" y1="58.42" x2="-205.74" y2="58.42" width="0.1524" layer="91"/>
 <label x="-203.2" y="58.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="-205.74" y1="58.42" x2="-203.2" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-205.74" y="58.42"/>
 </segment>
@@ -7489,7 +7489,7 @@ Hallmar Gauti Halldorsson</text>
 <label x="-195.58" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="7"/>
+<pinref part="SV6" gate="G$1" pin="7"/>
 <wire x1="-60.96" y1="165.1" x2="-58.42" y2="165.1" width="0.1524" layer="91"/>
 <label x="-58.42" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7501,7 +7501,7 @@ Hallmar Gauti Halldorsson</text>
 <label x="-195.58" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="6"/>
+<pinref part="SV6" gate="G$1" pin="6"/>
 <wire x1="-60.96" y1="162.56" x2="-58.42" y2="162.56" width="0.1524" layer="91"/>
 <label x="-58.42" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7510,13 +7510,13 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="167.64" x2="-17.78" y2="167.64" width="0.1524" layer="91"/>
 <label x="-17.78" y="167.64" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV3" gate="G$1" pin="8"/>
+<pinref part="SV5" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="RATIO" gate="G$1" pin="S"/>
 <wire x1="-175.26" y1="58.42" x2="-172.72" y2="58.42" width="0.1524" layer="91"/>
 <label x="-170.18" y="58.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="-172.72" y1="58.42" x2="-170.18" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-172.72" y="58.42"/>
 </segment>
@@ -7525,7 +7525,7 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="134.62" x2="-17.78" y2="134.62" width="0.1524" layer="91"/>
 <label x="-17.78" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV4" gate="G$1" pin="8"/>
+<pinref part="SV7" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="SIN" gate="G$1" pin="A"/>
@@ -7537,7 +7537,7 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="132.08" x2="-17.78" y2="132.08" width="0.1524" layer="91"/>
 <label x="-17.78" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV4" gate="G$1" pin="7"/>
+<pinref part="SV7" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="SQ" gate="G$1" pin="A"/>
@@ -7549,7 +7549,7 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="129.54" x2="-17.78" y2="129.54" width="0.1524" layer="91"/>
 <label x="-17.78" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV4" gate="G$1" pin="6"/>
+<pinref part="SV7" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="SAW" gate="G$1" pin="A"/>
@@ -7561,7 +7561,7 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="127" x2="-17.78" y2="127" width="0.1524" layer="91"/>
 <label x="-17.78" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV4" gate="G$1" pin="5"/>
+<pinref part="SV7" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="TRI" gate="G$1" pin="A"/>
@@ -7573,7 +7573,7 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="121.92" x2="-17.78" y2="121.92" width="0.1524" layer="91"/>
 <label x="-17.78" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV4" gate="G$1" pin="3"/>
+<pinref part="SV7" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="KARPL" gate="G$1" pin="A"/>
@@ -7585,7 +7585,7 @@ Hallmar Gauti Halldorsson</text>
 <segment>
 <wire x1="-20.32" y1="119.38" x2="-17.78" y2="119.38" width="0.1524" layer="91"/>
 <label x="-17.78" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="SV4" gate="G$1" pin="2"/>
+<pinref part="SV7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="OSC" gate="G$1" pin="A"/>
@@ -7595,14 +7595,14 @@ Hallmar Gauti Halldorsson</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D10" gate="G$1" pin="C"/>
 <pinref part="GATE-OUT" gate="G$1" pin="TIP"/>
 <wire x1="-48.26" y1="86.36" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="AUDIO-OUT" gate="G$1" pin="TIP"/>
 <wire x1="-43.18" y1="104.14" x2="-33.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -7610,14 +7610,14 @@ Hallmar Gauti Halldorsson</text>
 <net name="MIDI_LEARN_F" class="0">
 <segment>
 <label x="-137.16" y="157.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="-142.24" y1="157.48" x2="-137.16" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="S1"/>
 <wire x1="-147.32" y1="157.48" x2="-142.24" y2="157.48" width="0.1524" layer="91"/>
 <junction x="-142.24" y="157.48"/>
 </segment>
 <segment>
-<pinref part="SV4" gate="G$1" pin="1"/>
+<pinref part="SV7" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="116.84" x2="-17.78" y2="116.84" width="0.1524" layer="91"/>
 <label x="-17.78" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7625,14 +7625,14 @@ Hallmar Gauti Halldorsson</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="FM_CV" gate="G$1" pin="TIP"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="-210.82" y1="91.44" x2="-213.36" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="RATIO_CV" gate="G$1" pin="TIP"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-213.36" y1="119.38" x2="-210.82" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
