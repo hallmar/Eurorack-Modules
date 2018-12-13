@@ -1,5 +1,6 @@
 Mouser cart link:
 https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7f954e2c7a
+DOUBLE CHECK IF ALL COMPONENTS ARE THERE, IF SOMETHING IS MISSING, LET ME KNOW
 
 Thonk.co.uk parts:
 2x Green stereo jack(PJ366ST)
