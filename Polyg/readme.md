@@ -28,7 +28,8 @@ I'll let you know if i have any PCB's in stock or not.
 * Audio System Design Tool for Teensy Audio Library
 
 ## Versioning
-
+* 1.0 - [Hardware] Original PCB batch 
+* 1.0 - [Software] Original software release
 ## Authors
 
 * **Hallmar Gauti Halldórsson** 
