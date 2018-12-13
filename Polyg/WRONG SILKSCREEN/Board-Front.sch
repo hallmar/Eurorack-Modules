@@ -6973,7 +6973,7 @@ Source: www.kingbright.com</description>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:29904/2"/>
-<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
+<part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
 <part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="*"/>
@@ -7077,7 +7077,7 @@ Hallmar Gauti Halldorsson</text>
 <attribute name="VALUE" x="-144.78" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="T1" gate="G$1" x="-50.8" y="43.18"/>
-<instance part="R12" gate="G$1" x="-111.76" y="93.98" rot="R90"/>
+<instance part="R29" gate="G$1" x="-111.76" y="93.98" rot="R90"/>
 <instance part="GND21" gate="1" x="-111.76" y="86.36"/>
 <instance part="R30" gate="G$1" x="-205.74" y="53.34" rot="R270"/>
 <instance part="R31" gate="G$1" x="-205.74" y="17.78" rot="R270"/>
@@ -7195,7 +7195,7 @@ Hallmar Gauti Halldorsson</text>
 <wire x1="-48.26" y1="35.56" x2="-48.26" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7399,7 +7399,7 @@ Hallmar Gauti Halldorsson</text>
 <pinref part="MODE" gate="G$1" pin="O"/>
 <wire x1="-114.3" y1="99.06" x2="-111.76" y2="99.06" width="0.1524" layer="91"/>
 <label x="-106.68" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="-111.76" y1="99.06" x2="-106.68" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-111.76" y="99.06"/>
 </segment>
