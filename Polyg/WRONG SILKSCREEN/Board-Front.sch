@@ -6967,7 +6967,7 @@ Source: www.kingbright.com</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
-<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="220"/>
+<part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="220"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="SV7" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="10k"/>
@@ -7063,7 +7063,7 @@ Hallmar Gauti Halldorsson</text>
 <instance part="GND20" gate="1" x="-124.46" y="12.7"/>
 <instance part="GND22" gate="1" x="-114.3" y="12.7"/>
 <instance part="D10" gate="G$1" x="-50.8" y="86.36"/>
-<instance part="R10" gate="G$1" x="-48.26" y="104.14"/>
+<instance part="R19" gate="G$1" x="-48.26" y="104.14"/>
 <instance part="S1" gate="1" x="-152.4" y="160.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="-154.94" y="166.37" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-149.225" y="163.83" size="1.778" layer="96"/>
@@ -7389,7 +7389,7 @@ Hallmar Gauti Halldorsson</text>
 <pinref part="SV5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-53.34" y1="104.14" x2="-66.04" y2="104.14" width="0.1524" layer="91"/>
 <label x="-66.04" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7602,7 +7602,7 @@ Hallmar Gauti Halldorsson</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="AUDIO-OUT" gate="G$1" pin="TIP"/>
 <wire x1="-43.18" y1="104.14" x2="-33.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
