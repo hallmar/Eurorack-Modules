@@ -15878,7 +15878,7 @@ W = angled&lt;p&gt;
 <part name="U6" library="SOIC127P600X175-8N" deviceset="CS4334" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C17" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="153CLV-0405" package3d_urn="urn:adsk.eagle:package:25891/1" value="3.3µ"/>
+<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="153CLV-0405" package3d_urn="urn:adsk.eagle:package:25891/1" value="3.3µ"/>
 <part name="R50" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="560"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C18" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="3.3n"/>
@@ -16154,7 +16154,7 @@ between boards</text>
 <instance part="GND16" gate="1" x="93.98" y="2.54" smashed="yes">
 <attribute name="VALUE" x="91.44" y="0" size="1.778" layer="96"/>
 </instance>
-<instance part="C17" gate="G$1" x="27.94" y="88.9" smashed="yes" rot="R90">
+<instance part="C1" gate="G$1" x="27.94" y="88.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.067" y="92.2274" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="28.067" y="85.8774" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -16845,7 +16845,7 @@ between boards</text>
 <label x="76.2" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="+"/>
+<pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="25.4" y1="88.9" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="88.9" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
@@ -16922,7 +16922,7 @@ between boards</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="C17" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="88.9" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
