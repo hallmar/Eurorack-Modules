@@ -15826,7 +15826,7 @@ W = angled&lt;p&gt;
 <part name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
 <part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="6N138" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="D15" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148"/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="470"/>
+<part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="470"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:26140/1" value="100n"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15845,7 +15845,7 @@ W = angled&lt;p&gt;
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R46" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="1k"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GAIN" library="MusicThingModular" deviceset="BOURNS_3362P_TRIMMER" device="P" value="10k"/>
+<part name="GAIN1" library="MusicThingModular" deviceset="BOURNS_3362P_TRIMMER" device="P" value="10k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="E5-6" package3d_urn="urn:adsk.eagle:package:25858/1" value="100µ"/>
 <part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="E5-6" package3d_urn="urn:adsk.eagle:package:25858/1" value="100µ"/>
@@ -15955,7 +15955,7 @@ between boards</text>
 <attribute name="NAME" x="-184.15" y="138.2014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-183.388" y="132.8674" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R1" gate="G$1" x="-137.16" y="142.24" smashed="yes" rot="R90">
+<instance part="R34" gate="G$1" x="-137.16" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="-132.842" y="147.0914" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-132.08" y="139.954" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -16033,7 +16033,7 @@ between boards</text>
 <instance part="GND7" gate="1" x="96.52" y="58.42" smashed="yes">
 <attribute name="VALUE" x="93.98" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GAIN" gate="G$1" x="106.68" y="73.66" smashed="yes" rot="R270">
+<instance part="GAIN1" gate="G$1" x="106.68" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.584" y="70.739" size="1.524" layer="95" ratio="10"/>
 <attribute name="VALUE" x="109.474" y="71.12" size="1.524" layer="96" ratio="10"/>
 </instance>
@@ -16338,7 +16338,7 @@ between boards</text>
 <label x="-30.48" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="-137.16" y1="147.32" x2="-137.16" y2="149.86" width="0.1524" layer="91"/>
 <label x="-137.16" y="149.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -16362,7 +16362,7 @@ between boards</text>
 <segment>
 <pinref part="OK2" gate="G$1" pin="VO"/>
 <wire x1="-149.86" y1="134.62" x2="-137.16" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="134.62" x2="-137.16" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="134.62" x2="-132.08" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-137.16" y="134.62"/>
@@ -16549,8 +16549,8 @@ between boards</text>
 <wire x1="121.92" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
 <junction x="121.92" y="83.82"/>
-<pinref part="GAIN" gate="G$1" pin="3"/>
-<pinref part="GAIN" gate="G$1" pin="2"/>
+<pinref part="GAIN1" gate="G$1" pin="3"/>
+<pinref part="GAIN1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="68.58" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 <junction x="116.84" y="73.66"/>
@@ -16590,7 +16590,7 @@ between boards</text>
 <wire x1="96.52" y1="73.66" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <junction x="96.52" y="73.66"/>
-<pinref part="GAIN" gate="G$1" pin="1"/>
+<pinref part="GAIN1" gate="G$1" pin="1"/>
 <pinref part="U5" gate="D" pin="-IN"/>
 </segment>
 </net>
