@@ -6,6 +6,7 @@
 
 [Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7f954e2c7a)
 
+ATTENTION BUILDERS THAT GOT THE FIRST BATCH OF 10 PCB'S(you can tell if they're part of that batch if they have no version number in the corner), THERE WAS A MAJOR ERROR IN THE SILKSCREEN DUE TO ME BEING AN IDIOT, SEE THE FOLDER CALLED 'WRONG SILKSCREEN' FOR CORRECT COMPONENT NUMBERING
 
 8 Voice polyphonic synthesizer with selectable Karplus strong(8 voice plucky string synth) or a 8 voice FM synth with square,sine,triangle and sawtooth. It has a basic FM(techincally Phase Modulation, like the DX7) with one Modulator. 
 There's an index knob to set the ratio, decay for the operator and the amount of FM applied.
