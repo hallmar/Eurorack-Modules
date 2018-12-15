@@ -152,6 +152,7 @@
 <text x="5.334" y="54.356" size="1.778" layer="25">+</text>
 <text x="5.334" y="66.421" size="1.778" layer="25">+</text>
 <text x="10.16" y="66.421" size="1.778" layer="25">+</text>
+<text x="11.049" y="1.651" size="1.778" layer="26" rot="MR90">Version 1.1</text>
 </plain>
 <libraries>
 <library name="MusicThingModular">
