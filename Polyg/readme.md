@@ -31,7 +31,7 @@ I'll let you know if i have any PCB's in stock or not.
 
 ## Versioning
 * 1.0 - [Hardware] Original PCB batch with wrong silkscreen
-* 1.1 - [Hardware] Current version with correct silkscreen
+* 1.1 - [Hardware] Current version of PCBs
 * 1.0 - [Software] Original software release
 ## Authors
 
