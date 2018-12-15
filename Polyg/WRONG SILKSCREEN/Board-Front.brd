@@ -2016,7 +2016,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.496" y="14.986" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="28.194" y="18.034" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="1k" x="23.876" y="47.498" smashed="yes" rot="MR270">
+<element name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="M1206" package3d_urn="urn:adsk.eagle:package:26088/1" value="220" x="23.876" y="47.498" smashed="yes" rot="MR270">
 <attribute name="NAME" x="22.86" y="51.562" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="26.416" y="48.768" size="1.27" layer="28" rot="MR270"/>
 </element>
