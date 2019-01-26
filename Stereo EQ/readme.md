@@ -2,6 +2,7 @@
 Simply a dual Simple-EQ from Music Thing Modular.
 I edited some values but otherwise it's just the basic schematic from Douglas Self's Small Signal Audio Design.
 
+[Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=fd9e850b66)
 ## Where/how to order
 Might sell some when it's ready and I have a working prototype. 
 
