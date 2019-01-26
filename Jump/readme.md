@@ -1,4 +1,4 @@
-# JUMP
+# Jump
 It's a module that can transport 11 signals from one point to another point. Super useful if you have two eurorack cases. 
 
 ## Where/how to order
