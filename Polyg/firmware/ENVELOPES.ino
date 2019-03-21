@@ -3,7 +3,7 @@
 void envelopeON(byte note)
 {
   Serial.println("Envelope on");
-  float freq_note = midi_notes[note-1];
+  float freq_note = midi_notes[note-1]*pbend; //reference the note table in MIDI_lookup.ino
   if(current_instrument == INST_OSC)
   {
 	if(!gate_out)

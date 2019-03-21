@@ -150,6 +150,7 @@ short debounce = 10;
 byte voicenote[16] = {0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0};
 bool voicetrig[16] = {0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0};
 float voicefreq[8] = {};
+float pbend = 1;
 byte current_waveform = WAVEFORM_SINE;
 byte current_instrument = INST_OSC;
 byte current_modwaveform = WAVEFORM_SINE;
@@ -284,6 +285,7 @@ void setup()
   //normally its 31250
   MIDI.setHandleNoteOff(handleMIDIoff);
   MIDI.setHandleNoteOn(handleMIDIon);
+  MIDI.setHandlePitchBend(pitchbend);
   MIDI.turnThruOn(); //turn on thru functionality for the MIDI out port
   //analogReference(DEFAULT);
 }
@@ -444,18 +446,18 @@ void loop()
   modulator6.frequency(voicefreq[5]*mod_index);
   modulator7.frequency(voicefreq[6]*mod_index);
   modulator8.frequency(voicefreq[7]*mod_index);
-  AudioInterrupts();  }
+  AudioInterrupts();  } //mod cv if ends
   
   envel_but.update();
  if(envel_but.rose())
  {
-  changeenvelope();
+  changeenvelope(); // in envelopes.ino
  }
  
  wavesh_but.update();
  if(wavesh_but.rose())
  {
-  changewavesh();
+  changewavesh(); // in envelopes.ino
  }
 
 
@@ -471,7 +473,7 @@ void loop()
   }
   if(time_held >= 500)
   {learn_active = 1;}
-  else{allnotesoff();}
+  else{allnotesoff();} // in envelopes.ino
   time_held = 0;
   //uncomment the serial commands below to be able to get audioprocessor usage max reports
   //Serial.println(String("Max processor usage: ")+ AudioProcessorUsageMax());

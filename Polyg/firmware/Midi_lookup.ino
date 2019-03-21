@@ -39,3 +39,43 @@ void handleMIDIoff(byte channel, byte note, byte velocity)
 	envelopeOFF(note);
   }
 }
+
+void pitchbend(byte channel, int bend)
+{
+  float bended;
+  if(bend >= 0)
+  {
+    bended = (float)bend/8191;
+    pbend = 1 + bended;
+  }
+  if(bend  < 0)
+  {
+    bended = (float)bend/8192;
+    pbend =1+ 0.5*bended;
+  }
+  
+  
+  if(channel == midi_channel) 
+  {
+    Serial.println(String("Bend:")+bend);
+    Serial.println(String("Bended:")+pbend);
+    AudioNoInterrupts();
+    waveform1.frequency(voicefreq[0]*pbend);
+    waveform2.frequency(voicefreq[1]*pbend);
+    waveform3.frequency(voicefreq[2]*pbend);
+    waveform4.frequency(voicefreq[3]*pbend);
+    waveform5.frequency(voicefreq[4]*pbend);
+    waveform6.frequency(voicefreq[5]*pbend);
+    waveform7.frequency(voicefreq[6]*pbend);
+    waveform8.frequency(voicefreq[7]*pbend);
+    modulator1.frequency(voicefreq[0]*mod_index*pbend);
+    modulator2.frequency(voicefreq[1]*mod_index*pbend);
+    modulator3.frequency(voicefreq[2]*mod_index*pbend);
+    modulator4.frequency(voicefreq[3]*mod_index*pbend);
+    modulator5.frequency(voicefreq[4]*mod_index*pbend);
+    modulator6.frequency(voicefreq[5]*mod_index*pbend);
+    modulator7.frequency(voicefreq[6]*mod_index*pbend);
+    modulator8.frequency(voicefreq[7]*mod_index*pbend);
+    AudioInterrupts();
+  }
+}

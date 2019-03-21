@@ -31,14 +31,14 @@ void initial()
   waveform8.phaseModulation(900);
   
   
-  modulator1.begin(fm_knob, mod_index*voicefreq[0], current_modwaveform);
-  modulator2.begin(fm_knob, mod_index*voicefreq[1], current_modwaveform);
-  modulator3.begin(fm_knob, mod_index*voicefreq[2], current_modwaveform);
-  modulator4.begin(fm_knob, mod_index*voicefreq[3], current_modwaveform);
-  modulator5.begin(fm_knob, mod_index*voicefreq[4], current_modwaveform);
-  modulator6.begin(fm_knob, mod_index*voicefreq[5], current_modwaveform);
-  modulator7.begin(fm_knob, mod_index*voicefreq[6], current_modwaveform);
-  modulator8.begin(fm_knob, mod_index*voicefreq[7], current_modwaveform);
+  modulator1.begin(fm_knob/4, mod_index*voicefreq[0], current_modwaveform);
+  modulator2.begin(fm_knob/4, mod_index*voicefreq[1], current_modwaveform);
+  modulator3.begin(fm_knob/4, mod_index*voicefreq[2], current_modwaveform);
+  modulator4.begin(fm_knob/4, mod_index*voicefreq[3], current_modwaveform);
+  modulator5.begin(fm_knob/4, mod_index*voicefreq[4], current_modwaveform);
+  modulator6.begin(fm_knob/4, mod_index*voicefreq[5], current_modwaveform);
+  modulator7.begin(fm_knob/4, mod_index*voicefreq[6], current_modwaveform);
+  modulator8.begin(fm_knob/4, mod_index*voicefreq[7], current_modwaveform);
 
  
 
