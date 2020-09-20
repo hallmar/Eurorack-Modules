@@ -21,8 +21,8 @@ You can find adapters in almost every synthstore now.
 
 
 ## Where/how to order
-just hit me up with an e-mail at: halligauti@hotmail.com
-I'll let you know if i have any PCB's in stock or not.
+I won't have any PCB's in stock any time soon. This project is pretty much abandoned.
+You have my approval of making your own, just remember to credit me.
 
 ## Designed With
 
