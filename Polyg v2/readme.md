@@ -3,7 +3,7 @@
 This new version has a dedicated MIDI thru instead of routing it into the Teensy and back out. 
 And it has alot of improvements of the hardware.
 
-<p align="center"><img src="/Polyg/images/polyg.jpg"  width="120" height="360"></p>
+<p align="center"><img src="/Polyg v2/images/polyg.jpg"  width="120" height="360"></p>
 
 [Youtube demo](https://www.youtube.com/watch?v=QhJZFhLLbBc&feature=youtu.be)
 
@@ -17,7 +17,7 @@ Current hardware uses a high quality 16bit/44.1kHz DAC(CD4334).
 
 It has MIDI IN and MIDI OUT/THRU. It uses the Arturia Standard for DIN to stereo jack, so type B midi.
 You can find adapters in almost every synthstore now. 
-<p align="center"><img src="/Polyg/images/TRS-graphic.jpg" width="360" height="360" ></p>
+<p align="center"><img src="/Polyg v2/images/TRS-graphic.jpg" width="360" height="360" ></p>
 
 
 ## Where/how to order
