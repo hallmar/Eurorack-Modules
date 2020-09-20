@@ -6,7 +6,7 @@ And it has alot of improvements of the hardware.
 <p align="center"><img src="/Polyg/images/polyg.jpg"  width="120" height="360"></p>
 
 [Youtube demo](https://www.youtube.com/watch?v=QhJZFhLLbBc&feature=youtu.be)
-[Mouser cart] {https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=3288d77cba}
+[Mouser cart]{https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=3288d77cba}
 
 8 Voice polyphonic synthesizer with selectable Karplus strong(8 voice plucky string synth) or a 8 voice FM synth with square,sine,triangle and sawtooth. It has a basic FM(techincally Phase Modulation, like the DX7) with one Modulator. 
 There's an index knob to set the ratio, decay for the operator and the amount of FM applied.
