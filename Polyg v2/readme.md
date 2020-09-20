@@ -1,6 +1,7 @@
 # Polyg v2 8-Voice Midi synth
 
-This new version has a dedicated MIDI thru instead of routing it into the Teensy and back out.
+This new version has a dedicated MIDI thru instead of routing it into the Teensy and back out. 
+And it has alot of improvements of the hardware.
 
 <p align="center"><img src="/Polyg/images/polyg.jpg"  width="120" height="360"></p>
 
