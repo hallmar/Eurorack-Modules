@@ -32,8 +32,10 @@ You have my approval of making your own, just remember to credit me.
 
 ## Versioning
 * 1.0 - [Hardware] Original PCB batch with wrong silkscreen
-* 1.1 - [Hardware] Current version of PCBs
+* 1.1 - [Hardware] v1 of PCBs
 * 1.0 - [Software] Original software release
+* 2.0 - [Hardware] v2 of PCB is made with improvements
+* 2.0 - [Hardware] v2 of firmware is written
 ## Authors
 
 * **Hallmar Gauti Halldórsson** 
