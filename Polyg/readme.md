@@ -2,6 +2,8 @@
 
 # Polyg 8-Voice Midi synth
 
+# THIS PROJECT IS DISCONTINUED IN FAVOR OF V2 
+
 <p align="center"><img src="/Polyg/images/polyg.jpg"  width="120" height="360"></p>
 
 [Youtube demo](https://www.youtube.com/watch?v=QhJZFhLLbBc&feature=youtu.be)
@@ -20,9 +22,7 @@ You can find adapters in almost every synthstore now.
 
 
 ## Where/how to order
-I won't have any PCB's in stock any time soon. This project is pretty much abandoned.
-You have my approval of making your own, just remember to credit me.
-
+I won't have any PCB's in stock any time soon. This project is pretty much abandoned in favor of v2.
 ## Designed With
 
 * Eagle CAD
