@@ -1,4 +1,4 @@
-# Aodijo x2 - a 2 input channel eurorack audio interface
+# Tvinna- a 2 input channel eurorack audio interface
 
 Simple 2 channel audio interface using the Teensy 3.2 to convert the i2s stream to a USB stream and into a computer.
 Mouser cart: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=84f3481d98
