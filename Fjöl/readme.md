@@ -11,8 +11,7 @@ You can find adapters in almost every synthstore now.
 
 
 ## Where/how to order
-I won't have any PCB's in stock any time soon. This project is pretty much abandoned.
-You have my approval of making your own, just remember to credit me.
+It's all still a work in progress
 
 ## Designed With
 
