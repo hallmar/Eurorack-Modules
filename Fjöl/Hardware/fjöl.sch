@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2650 1300 500  150 
+S 5150 3950 500  150 
 U 5FECE969
 F0 "DSP" 50
 F1 "DSP.sch" 50
 $EndSheet
 $Sheet
-S 3300 1300 500  150 
+S 5800 3950 500  150 
 U 5FECF0C2
 F0 "frontpanel" 50
 F1 "frontpanel.sch" 50
