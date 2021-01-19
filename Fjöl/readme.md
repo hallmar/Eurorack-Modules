@@ -2,7 +2,7 @@
 
 <p align="center"><img src="/Fjöl/Documentation/fjöl.png"  width="543" height="761"></p>
 
-Current hardware uses a high quality 16bit/44.1kHz DAC(CD4334).
+Current hardware uses a high quality DAC(PCM5100) with 16bit/44.1kHz quality.
 
 
 It has MIDI IN and MIDI OUT/THRU. It uses the Arturia Standard for DIN to stereo jack, so type B midi.
