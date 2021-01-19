@@ -15,7 +15,7 @@ It's all still a work in progress
 
 ## Designed With
 
-* Eagle CAD
+* KiCAD
 * Arduino IDE
 * Audio System Design Tool for Teensy Audio Library
 
