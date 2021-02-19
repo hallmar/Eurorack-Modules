@@ -1,6 +1,6 @@
 # Fjöl 4-Voice Midi synth
 
-<p align="center"><img src="/Fjöl/Documentation/fjöl.png"  width="543" height="761"></p>
+<p align="center"><img src="/Fjöl/Documentation/fjöl.jpg"  width="543" height="761"></p>
 
 Current hardware uses a high quality DAC(PCM5100) with 16bit/44.1kHz quality.
 
