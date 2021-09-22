@@ -27,7 +27,7 @@ It's all still a work in progress
 * **Hallmar Gauti Halldórsson** 
 
 ## License
-Hardware: cc-by-sa-3.0
+Hardware: CC BY-SA 4.0
 
 Software: MIT license
 
