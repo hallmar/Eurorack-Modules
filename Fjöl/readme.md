@@ -29,7 +29,7 @@ It's all still a work in progress
 ## License
 Hardware: CC BY-SA 4.0
 
-Software: MIT license
+Software: CC BY-SA 4.0
 
 But if you want to sell or do something with the software or hardware then it'd be nice to include my name and link to my Github somewhere :)
 
