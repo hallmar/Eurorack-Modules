@@ -11,7 +11,8 @@ You can find adapters in almost every synthstore now.
 
 
 ## Where/how to order
-It's all still a work in progress
+It's all still a work in progress and the UI has changed drastically.
+I've ditched the OLED and opted for another UI that I will post here soon.
 
 ## Designed With
 
