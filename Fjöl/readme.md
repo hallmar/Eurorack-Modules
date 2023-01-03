@@ -17,7 +17,7 @@ Fjöl is a
 * MIDI IN and MIDI THRU with type A midi minijacks as per MIDI standard.
 * optional V/OCT and gate per voice expander also in the works
 
-Encoder paramaters are:
+Encoder parameters are:
 
 * stereo spread of voices
 * filter resonance
