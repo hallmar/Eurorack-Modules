@@ -16,7 +16,7 @@ Fjöl is a
 * two endless encoders with CV input for adjusting 8 different parameters 
 * MIDI IN and MIDI THRU with type A midi minijacks as per MIDI standard.
 * optional V/OCT and gate per voice expander also in the works
-* i2c compatibility(using Just Friends commands) with Monome Teletype and Monome Crow is also on the roadmap
+* i2c compatibility with Monome Teletype and Monome Crow (using Just Friends commands) is also on the roadmap
 * possible Monome Grid compatibility on the roadmap
 
 Encoder parameters are:
