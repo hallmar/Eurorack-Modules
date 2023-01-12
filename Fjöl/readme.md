@@ -8,7 +8,7 @@ Small demo video with non working LED's: https://www.youtube.com/watch?v=nTqA_WN
 Current hardware uses a high quality DAC(PCM5100) with 16bit/44.1kHz quality.
 
 Fjöl is a 
-4 voice polyphonic Phase modulation synthesizer. Using only sine waves you can get the same sounds as an FM synthesizer.
+4 voice polyphonic* Phase modulation synthesizer. Using only sine waves you can get the same sounds as an FM synthesizer.
 
 * digital ladder LPF with resonance
 * usb A host
@@ -18,6 +18,9 @@ Fjöl is a
 * optional V/OCT and gate per voice expander also in the works
 * i2c compatibility with Monome Teletype and Monome Crow (using Just Friends commands) is also on the roadmap
 * possible Monome Grid compatibility on the roadmap
+
+*(technically paraphonic since it's one filter for all voices)
+
 
 Encoder parameters are:
 
