@@ -1,7 +1,7 @@
 # Fjöl 4-Voice Midi synth
 
-<p align="center"><img src="/Fjöl/Documentation/frontpanel.png"  width="543" height="761"></p>
-<p align="center"><img src="/Fjöl/Documentation/IMG_6093.jpeg"  width="543" height="761"></p>
+<p align="center"><img src="/Fjöl-v0.6/Documentation/frontpanel.png"  width="543" height="761"></p>
+<p align="center"><img src="/Fjöl-v0.6/Documentation/IMG_6093.jpeg"  width="543" height="761"></p>
 
 Small demo video with non working LED's: https://www.youtube.com/watch?v=nTqA_WNiwQo
 
@@ -67,8 +67,8 @@ OP2 -> OUT
 
 
 ## Where/how to order
-It's all a work in progress.
-Hopefully I'll have some beta testing units ready before summer 2023 :)
+This is the Teensy version of the synth which I'm just keeping here for showing it.
+It's not being produced with a Teensy.
 
 ## Designed With
 
@@ -78,8 +78,8 @@ Hopefully I'll have some beta testing units ready before summer 2023 :)
 * Audio System Design Tool for Teensy Audio Library
 
 ## Versioning
-* 1.0 - [Hardware] Original PCB
-* 1.0 - [Software] Original software 
+* 0.6 - [Hardware] Original PCB
+* 0.6 - [Software] Original software 
 ## Authors
 
 * **Hallmar Gauti Halldórsson** (hardware and firmware)
