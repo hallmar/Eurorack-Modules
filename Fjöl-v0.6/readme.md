@@ -66,10 +66,6 @@ OP2 -> OUT
 
 
 
-## Where/how to order
-This is the Teensy version of the synth which I'm just keeping here for showing it.
-It's not being produced with a Teensy.
-
 ## Designed With
 
 * KiCAD
