@@ -3,6 +3,8 @@ Hardware: cc-by-sa-3.0
 
 Software: CC BY-SA 4.0
 
+All of the code in this repository is for Arduino.
+
 But if you want to sell or do something with the software or hardware then it'd be nice to include my name and link to my Github somewhere :)
 
 
