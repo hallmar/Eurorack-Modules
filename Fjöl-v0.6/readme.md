@@ -1,4 +1,4 @@
-# Fjöl 4-Voice Midi synth
+# Fjöl 4-Voice Midi synth, THIS IS A DEPRECATED PROJECT AND I'M ONLY KEEPING THIS HERE FOR ARCHIVING PURPOSES
 
 <p align="center"><img src="/Fjöl-v0.6/Documentation/frontpanel.png"  width="543" height="761"></p>
 <p align="center"><img src="/Fjöl-v0.6/Documentation/IMG_6093.jpeg"  width="543" height="761"></p>
