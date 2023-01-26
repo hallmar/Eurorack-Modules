@@ -1,4 +1,4 @@
-# Fjöl 4-Voice Midi synth
+# Fjöl 4-Voice Midi synth, THIS IS A DEPRECATED PROJECT AND I'M ONLY KEEPING IT FOR ARCHIVING PURPOSES
 
 <p align="center"><img src="/Fjöl/Documentation/fjöl.jpg"  width="543" height="761"></p>
 
@@ -9,10 +9,6 @@ It has MIDI IN and MIDI OUT/THRU. It uses the Arturia Standard for DIN to stereo
 You can find adapters in almost every synthstore now. 
 <p align="center"><img src="/Polyg v2/images/TRS-graphic.jpg" width="360" height="360" ></p>
 
-
-## Where/how to order
-It's all still a work in progress and the UI has changed drastically.
-I've ditched the OLED and opted for another UI that I will post here soon.
 
 ## Designed With
 
